@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  div(ng-view) 
+  script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js')
+  script(src='/javascripts/app.js')

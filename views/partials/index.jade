@@ -1,0 +1,4 @@
+h2 There are {{names.length}} names
+div(ng-repeat='name in names')
+  a(href='/edit/{{name.id}}')
+    h3 {{name.name}}
