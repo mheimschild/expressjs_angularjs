@@ -4,7 +4,6 @@
  */
 
 exports.index = function(req, res){
-  console.log("index called - but: " + req.path);
   res.render('index', { title: 'Express' });
 };
 
